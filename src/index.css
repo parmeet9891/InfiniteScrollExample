@@ -7,7 +7,26 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.pokemon {
+  height: 300px;
+}
+
+.pokemon img {
+  max-width: 150px;
+  max-height: 200px;
+  margin: auto;
+  top: 50px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+
+.pokemon-section {
+  margin-top: 20px;
+}
+
+.pokemon .card-body {
+  position: relative;
+  height: 200px;
 }
